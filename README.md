@@ -4,7 +4,7 @@ GuestBook on sovellus, jolla voit tallentaa viestin luetteloon, eli kirjastoon. 
 
 # ScreenShoot
 
-![GuestBook App](docs/screenshot.png)
+![GuestBook App](src/docs/screenshot.png)
 
 # Installation
 
