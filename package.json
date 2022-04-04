@@ -1,13 +1,13 @@
 {
   "name": "guestbook",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "engines":{
     "node": "16.x"
   },
   "scripts": {
-    "start": "node .src/app.js",
-    "dev": "nodemon ./src/app.js"
+    "start": "node .src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "license": "MIT",
   "dependencies": {
