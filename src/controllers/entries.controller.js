@@ -20,8 +20,29 @@ const createNewMessage= (req, res) =>{
 
 };
 
+//ajax testaus
+const renderAjaxMessage= (req, res) =>{
+    res.render('ajax-message');
+};
+
+//ajax testaus
+const createAjaxMessage= (req, res) =>{
+    const ajaxMessage = {
+       title: req.body.user,
+       name: req.body.land,
+       content: req.body.letter,
+       
+    };
+    entries.push(ajaxMessage);
+    res.redirect('/ajax-message');
+
+};
+
 module.exports = {
     renderGuestbook,
     renderNewMessage,
-    createNewMessage
+    createNewMessage,
+    renderAjaxMessage,
+    createAjaxMessage,
+
 }
