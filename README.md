@@ -8,19 +8,21 @@ GuestBook on sovellus, jolla voit tallentaa viestin luetteloon, eli kirjastoon. 
 
 # Installation
 
-Lisään myöhemmin..
+Lisään myöhemmin jotain lisää..
 
 # Environment Variables
 
 - `PORT`, Serverin portti on `4000`.
 
 
-Also you can create a .env file with the environment variables mentioned above.
+# Hostaus omalla koneella
 
-# Hostaus
+1. Avaa VSC ohjelmalla kansio.
 
-`
+2. Asenna Terminaalissa `npm i express ejs morgan nodemon`.
 
-then visit: `http://localhost`
+3. Kirjoita terminaaliin `npm start`.
+
+4. Heti kun saat asennettua ja startattua, vieraile sitten: `http://localhost:4000` selaimessa.
 
 
